@@ -27,11 +27,11 @@ package paquete3;
         euros = x;
        
     }
-    public Precio(){
+    public Precio(){ //constructor
         agregar(30.2);
     }
     
-    public Precio (double y){
+    public Precio (double y){ //constructor 2
         agregar (y);
     }
     
